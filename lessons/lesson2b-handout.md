@@ -28,3 +28,4 @@ It is possible to connect LEDs, Switches and Buzzers directly to the Raspberry P
 
 ## Licence
 
+Traffic light Fritzing diagram taken from http://4tronix.co.uk/blog/?p=219

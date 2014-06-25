@@ -45,7 +45,7 @@ Use the Raspberry Pi and Pibrella to switch the LEDs on/off, using Scratch softw
 
 * Distribute the student handout. Pupils should be able to work through the material at their own pace.
 Handout:
-- [Lesson 3 - Using Scratch GPIO to control Pibrella.](lesson3-handout.md)
+* [Handout Lesson 3 - Using Scratch GPIO to control Pibrella](lesson3-handout.md)
 
 
 ## Main development
