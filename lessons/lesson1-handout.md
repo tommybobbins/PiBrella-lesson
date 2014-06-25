@@ -8,12 +8,11 @@ First of all we'll look at some components.
 
 ![](../images/led.jpg)
 
-This is a Light Emitting Diode (or LED for short). Similar to a lightbulb, it convert electrical energy into light. It has many differences from a traditional lamp. It emits light when current passes through it in one direction. In the other direction, it blocks the current. It only uses a tiny fraction of the power of a traditional bulb, it does not get so hot and can be switched on and off many more times. For these reasons, LEDs are used in all electronics: phones, tablets, Playstations - everything from TV screens to Blackpool Illuminations.
+This is a Light Emitting Diode (or LED for short). Similar to a lightbulb, it converts electrical energy into light. There are many differences. It emits light when current passes through it in one direction. In the other direction, it blocks the current and will not light. An LED uses a tiny fraction of the power of a traditional bulb, does not lose lots of energy from heat and can be switched on and off many more times. For these reasons, LEDs are used in all electronics: phones, tablets, Playstations - everything from TV screens to Blackpool Illuminations.
 
-As LEDs need to be placed the right way around in a circuit, they need the legs to be easily identified. One leg is longer than the other. This is the positive leg (or Anode). The shorter leg is the Negative leg (or Cathode).
+As LEDs need to be placed the right way around in a circuit, their connectors need to be easily identified. One leg is longer than the other. This is the positive leg (or Anode). The shorter leg is the Negative leg (or Cathode).
 
-
-Sadly it is easy to destroy an LED. To prevent this, we use something called a resistor.
+Sadly it is easy to destroy an LED compared to a normal bulb. To prevent this, we use something called a resistor.
 
 ## Resistors
 ![](../images/resistor.jpg)

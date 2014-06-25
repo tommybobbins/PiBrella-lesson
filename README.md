@@ -11,6 +11,8 @@ PiBrella-lesson
 * Battery pack
 * 10 M-M Jumper wires 
 * 10 M-F Jumper Jerky 
+* 3 220 Ohm resistors
+* A Red, Green and Amber LED
 * Raspberry Pi
 * Keyboard + Mouse
 * A micro USB power adaptor
