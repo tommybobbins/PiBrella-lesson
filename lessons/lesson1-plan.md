@@ -51,8 +51,8 @@ Handout:
 
 Circulate throughout the room assisting where necessary. When the majority of students have got three LEDs working, wrap up and move onto either lesson 2 or lesson 3:
 
-- [Lesson 2 - Connecting simple electronics to the Raspberry Pi](lessons/lesson2-plan.md)
-- [Lesson 3 - Working with the PiBrella and the Raspberry Pi](lessons/lesson3-plan.md) 
+- [Lesson 2 - Connecting simple electronics to the Raspberry Pi](lesson2-plan.md)
+- [Lesson 3 - Working with the PiBrella and the Raspberry Pi](lesson3-plan.md) 
 
 #Plenary
 
