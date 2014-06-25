@@ -73,3 +73,7 @@ If you wish at this point, you can use push button switches to control the LEDs 
 
 
 ![](../images/switch.jpg)
+
+In the picture above, when the button is closed: 
+-Top Left pin is connected to Bottom Right pin. 
+-Bottom Left pin is connected to Top Right pin.
