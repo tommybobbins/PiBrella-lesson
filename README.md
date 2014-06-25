@@ -19,7 +19,7 @@ PiBrella-lesson
 * Pibrella
 
 # Lesson
-- [Lesson 1 - Getting Started with Raspberry Pi](lessons/lesson1-plan.md)
+- [Lesson 1 - Using simple electronics.](lessons/lesson1-plan.md)
 - [Lesson 2 - Connecting simple electronics to the Raspberry Pi](lessons/lesson2-plan.md)
 - [Lesson 3 - Working with the PiBrella and the Raspberry Pi](lessons/lesson3-plan.md)
 
