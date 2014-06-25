@@ -1,4 +1,4 @@
-# Using the PiBrella
+# Lesson 3 - Using the Raspberry Pi to switch on LEDs
 
 Use the Raspberry Pi and Pibrella to switch the LEDs on/off, using Scratch software.
 
@@ -7,8 +7,6 @@ Use the Raspberry Pi and Pibrella to switch the LEDs on/off, using Scratch softw
 - Able to use Raspberry Pis and Pibrella circuit boards.
 - Able to connect & power up the Raspberry Pi.
 - Able to use ScratchGPIO to control simple circuits.
-
-# Lesson 3 - Using the Raspberry Pi to switch on LEDs
 
 ## Learning outcomes
 
@@ -37,7 +35,6 @@ Use the Raspberry Pi and Pibrella to switch the LEDs on/off, using Scratch softw
 
 ## Starter
 
-Show the students the "What is a Raspberry Pi ?" Youtube video. Explain that we will be using the Pi to control our lights.
 Distribute the student handout. Pupils should be able to work through the material at their own pace.
 Handout:
 - [Lesson 3 - Using Scratch GPIO to a Pibrella.](lesson3-handout.md)
@@ -45,10 +42,8 @@ Handout:
 
 ## Main development
 
-Circulate throughout the room assisting where necessary. When the majority of students have got three LEDs working, wrap up and move onto lesson 3:
-
-- [Lesson 3 - Working with the PiBrella and the Raspberry Pi](lesson3-plan.md) 
+Circulate throughout the room assisting where necessary.
 
 #Plenary
 
-Check that each group has correctly written a program to light the LEDs in sequence.
+Check that each group has correctly written a program to light the LEDs on the Pibrella using Scratch in sequence.
