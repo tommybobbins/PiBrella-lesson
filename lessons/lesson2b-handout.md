@@ -10,9 +10,9 @@ It is possible to connect LEDs, Switches and Buzzers directly to the Raspberry P
 
     ![](../images/scratch_gpio5_icon.png)
 
-3. Join the blocks together making all LEDs light
+3. Join the blocks together making all LEDs light in turn
 
-    ![](../images/pibrella_selfie_camera.gif)
+    ![](../images/PiGPIOLED.gif)
 
 4. Click the green flag to start the program
 
