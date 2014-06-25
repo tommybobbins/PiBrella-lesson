@@ -15,7 +15,7 @@
 
 3. Join the blocks together making your photo booth
 
-    ![](../images/pibrella_selfie_camera.gif)
+    ![](../images/Light_Pibrella.gif)
 
 ## Licence
 
