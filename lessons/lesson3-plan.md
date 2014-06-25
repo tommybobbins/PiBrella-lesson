@@ -1,21 +1,54 @@
-# Using a PiBrella and Scratch
+# Using the PiBrella
 
-##
-   Introduction to the Raspberry Pi
+Use the Raspberry Pi and Pibrella to switch the LEDs on/off, using Scratch software.
 
-## Connect the Pibrella board to the Raspberry Pi
+## Learning objectives
 
-1. Attach the Pibrella to the Raspberry Pi. You may need some help with this. Power up the Pibrella  and not the Raspberry Pi.
+- Able to use Raspberry Pis and Pibrella circuit boards.
+- Able to connect & power up the Raspberry Pi.
+- Able to use ScratchGPIO to control simple circuits.
 
-    ![](../images/assemble-4.jpg)
+# Lesson 3 - Using the Raspberry Pi to switch on LEDs
 
-2. Double click on the `Scratch GPIO 5` icon
+## Learning outcomes
 
-    ![](../images/scratch_gpio5_icon.png)
+**All students are able to:**
 
-3. Join the blocks together making your photo booth
+* Cable and Power up a Raspberry Pi.
+* Start ScratchGPIO.
+* Flash all LED.
 
-    ![](../images/pibrella_selfie_camera.gif)
+**Most students are able to:**
 
-## Licence
+* Create Scratch programs to drive GPIO pins.
+* Read switch input.
+* Drive buzzer.
 
+**Some students are able to:**
+
+* Design complicated Scratch programs to create sequences of LEDs.
+* Change buzzer pitch.
+
+
+## Lesson summary
+
+*Students will connect up the Pibrella board to a Raspberry Pi.
+*Extend the circuit using switches, to create a Pedestrian crossing .
+
+## Starter
+
+Show the students the "What is a Raspberry Pi ?" Youtube video. Explain that we will be using the Pi to control our lights.
+Distribute the student handout. Pupils should be able to work through the material at their own pace.
+Handout:
+- [Lesson 3 - Using Scratch GPIO to a Pibrella.](lesson3-handout.md)
+
+
+## Main development
+
+Circulate throughout the room assisting where necessary. When the majority of students have got three LEDs working, wrap up and move onto lesson 3:
+
+- [Lesson 3 - Working with the PiBrella and the Raspberry Pi](lesson3-plan.md) 
+
+#Plenary
+
+Check that each group has correctly written a program to light the LEDs in sequence.
