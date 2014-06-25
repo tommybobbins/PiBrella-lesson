@@ -42,9 +42,14 @@ Use the Raspberry Pi to switch the LEDs on/off, using Scratch software.
 ## Starter
 
 Show the students the "What is a Raspberry Pi ?" Youtube video. Explain that we will be using the Pi to control our lights.
-Distribute the student handout. Pupils should be able to work through the material at their own pace.
+Distribute the student handout. Pupils should be able to work through the material at their own pace. Ensure that the students do not have battery packs. If they are connected at the same time as the Raspberry Pi, they will damage the Pi.
+In addition, it is possible to destroy the Raspberry Pi by connecting the wrong wires together. If there is any risk of this happening or you are unsure of what to do, it is recommended to use the Pibrella found in Lesson 3. The Pibrella is entirely safe and cannot blow up the Pi!
+
 Handout:
 - [Lesson 2a - GPIO pins on the Raspberry Pi.](lesson2a-handout.md)
+
+Students will possibly need some help with connecting
+
 - [Lesson 2b - Using Scratch GPIO to control LEDs.](lesson2b-handout.md)
 
 

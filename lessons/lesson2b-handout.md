@@ -4,9 +4,11 @@ It is possible to connect LEDs, Switches and Buzzers directly to the Raspberry P
 
 ## Raspberry Pi controlling breadboard LEDs
 
-1. Attach the following pins from the Raspberry Pi to the LEDs on the breadboard. You may need some help with this.
+1. Attach the following pins from the Raspberry Pi to the LEDs on the breadboard. You may need some help connecting up the right pins. Be careful and double check before connecting to the Pi.
 
    ![](../images/traffic_lights.jpg)
+
+Traffic light Fritzing diagram taken with permission from http://4tronix.co.uk/blog/?p=219
 
 2. Double click on the `Scratch GPIO 5` icon
 
@@ -27,5 +29,5 @@ It is possible to connect LEDs, Switches and Buzzers directly to the Raspberry P
     ![](../images/scratch_gpio5_icon.png)
 
 ## Licence
-
 Traffic light Fritzing diagram taken from http://4tronix.co.uk/blog/?p=219
+
