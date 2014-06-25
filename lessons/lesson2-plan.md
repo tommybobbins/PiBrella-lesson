@@ -44,7 +44,7 @@ Use the Raspberry Pi to switch the LEDs on/off, using Scratch software.
 Show the students the "What is a Raspberry Pi ?" Youtube video. Explain that we will be using the Pi to control our lights.
 Distribute the student handout. Pupils should be able to work through the material at their own pace.
 Handout:
-- [Lesson 2a - GPIO pins on the Raspberry Pi.](lesson2-handout.md)
+- [Lesson 2a - GPIO pins on the Raspberry Pi.](lesson2a-handout.md)
 - [Lesson 2b - Using Scratch GPIO to control LEDs.](lesson2b-handout.md)
 
 
