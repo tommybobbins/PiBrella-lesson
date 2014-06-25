@@ -36,17 +36,30 @@ An introduction to using electronic components on breadboard with battery packs.
 
 ## Lesson summary
 
-Using breadboard, students will connect up a set of Red, Yellow and Green LEDs to resistors. When a battery pack is added, students will see the LEDs light up. Extending the circuit using switches, students will be able to switch on/off the LEDs.
+*Students will connect up a set of Red, Yellow and Green LEDs to resistors on breadboard.
+*When a battery pack is added, students will see the LEDs light up.
+*Extend the circuit using switches, to switch on/off LEDs individually.
 
 ## Starter
 
-Explain 
-
+Distribute the student handout. Pupils should be able to work through the material at their own pace.
 Handout:
 - [Lesson 1 - Handout Using simple electronics.](lesson1-handout.md)
 
 
-
 ## Main development
 
-## Plenary
+Circulate throughout the room assisting where necessary. When the majority of students have got three LEDs working, wrap up and move onto either lesson 2 or lesson 3:
+
+- [Lesson 2 - Connecting simple electronics to the Raspberry Pi](lessons/lesson2-plan.md)
+- [Lesson 3 - Working with the PiBrella and the Raspberry Pi](lessons/lesson3-plan.md) 
+
+#Plenary
+
+Holding up the various components, ask the class to define what they are and what function they perform
+
+* Battery Pack
+* Breadboard
+* LED
+* Switch
+* Resistor
