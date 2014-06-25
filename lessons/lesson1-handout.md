@@ -2,15 +2,23 @@
 Introduction to Electronics
 ===========================
 
+# Introduction
+
 For this part, we will be using Lights, Switches, Wires and Batteries to create a simple set of traffic lights.
 
-First of all we'll look at some components.
+# Components
+
+First of all we'll look at some components. Check you have each component as you read through this sheet.
+
+## Light Emitting Diode
 
 ![](../images/led.jpg)
 
 This is a Light Emitting Diode (or LED for short). Similar to a lightbulb, it converts electrical energy into light. There are many differences. It emits light when current passes through it in one direction. In the other direction, it blocks the current and will not light. An LED uses a tiny fraction of the power of a traditional bulb, does not lose lots of energy from heat and can be switched on and off many more times. For these reasons, LEDs are used in all electronics: phones, tablets, Playstations - everything from TV screens to Blackpool Illuminations.
 
 As LEDs need to be placed the right way around in a circuit, their connectors need to be easily identified. One leg is longer than the other. This is the positive leg (or Anode). The shorter leg is the Negative leg (or Cathode).
+
+Each group should have 3 LEDs, one red, one green and one amber/yellow.
 
 Sadly it is easy to destroy an LED compared to a normal bulb. To prevent this, we use something called a resistor.
 
@@ -24,19 +32,31 @@ When electrical engineers destroy components by not using resistors, the compone
 To prevent the magic blue smoke escaping from our LEDs, we use resistors. These have coloured bands on the outside of them to help us read how much resistance they provide. Today, we are using Red, Red and Brown bands = 2 2 * 10 = 220 Ohms. (and one Gold band indicates how close they are to this value). 
 
 ## Jumperlead
-Here is a jumperlead:
+
 ![](../images/jumperlead.jpg)
-Connects different rows of the breadboard together.
+
+A jumperlead connects different rows of a breadboard together.
 
 ## Battery
+
 ![](../images/battery.jpg)
 
-A batterypack is just a container for batteries. This one contains two AA batteries. Notice that it has a red and black wire. The Red wire is Positive (Anode) and the Black wire is negative (Cathode).
+This is a container for batteries. This particular pack contains two AA batteries. Notice that it has a red and black wire. The Red wire is Positive (Anode) and the Black wire is negative (Cathode).
 
 ## Breadboard
+
 ![](../images/breadboard.jpg)
 
+A breadboard is used to build circuits on.
+
+# Build
+
+First of all, place the 3 resistors onto the breadboard like this picture.
+
 ![](../images/resistors_breadboard.jpg)
+
+In this image, the Left side of the resistors is in Row 3 and the Right side is in Row 10, 11 and 12.
+
 ![](../images/leds_added.jpg)
 ![](../images/jumper_wires_end_row.jpg)
 ![](../images/battery_pack_rotated.jpg)
