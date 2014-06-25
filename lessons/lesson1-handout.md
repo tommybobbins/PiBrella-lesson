@@ -57,8 +57,19 @@ First of all, place the 3 resistors onto the breadboard like this picture.
 
 In this image, the Left side of the resistors is in Row 3 and the Right side is in Row 10, 11 and 12.
 
+Next insert the LEDs into Row 10, 11 and 12. The long leg should be on the same side as the Resistors. The short leg should bridge the gap in the breadboard. Note that each LED should be in it's own row.
+
 ![](../images/leds_added.jpg)
+
+Add some jumper wires from the ends of the LED back to the other side of the board near to our battery.
+
 ![](../images/jumper_wires_end_row.jpg)
+
+Finally, connect up the battery pack to Row 3 and Row 1 where our jumper wires ended up.
+
 ![](../images/battery_pack_rotated.jpg)
 
+If you wish at this point, you can use push button switches to control the LEDs on and off. A Push button switch should be connected diagonally across the pins.
 
+
+![](../images/switch.jpg)
