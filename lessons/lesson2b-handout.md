@@ -4,7 +4,7 @@ It is possible to connect LEDs, Switches and Buzzers directly to the Raspberry P
 
 ## Raspberry Pi controlling breadboard LEDs
 
-1. Attach the following pins from the Raspberry Pi to the LEDs on the breadboard. You may need some help connecting up the right pins. Be careful and double check before connecting to the Pi.
+1. Attach the following pins from the Raspberry Pi to the LEDs on the breadboard. To do this, it is easiest to use Male to Female Jumper Jerky. You may need some help connecting up the right pins. Be careful and double check before connecting to the Pi. If you are unsure, ask the teacher to check the circuit.
 
    ![](../images/traffic_lights.jpg)
 
