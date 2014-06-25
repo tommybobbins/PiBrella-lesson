@@ -35,15 +35,17 @@ Use the Raspberry Pi and Pibrella to switch the LEDs on/off, using Scratch softw
 
 ## Starter
 
-Explain what the Pibrella board is, that it has 3 LEDs and a switch. It also has a Piezo buzzer which allows it to play rudimentary beeps. Ensure that all students know that they must power up the Raspberry Pi and PiBrella using the microUSB (phone charger) socket located on the Pibrella and not on the Raspberry Pi.
+* Explain what the Pibrella board is, that it has 3 LEDs and a switch. It also has a Piezo buzzer which allows it to play rudimentary beeps. Ensure that all students know that they must power up the Raspberry Pi and PiBrella using the microUSB (phone charger) socket located on the Pibrella and not on the Raspberry Pi.
 
-Introduce Scratch, how to drag blocks, the block palette is where blocks are found and that the blocks are colour coded. Create a simple demonstration, showing the Green Flag and Red Button for starting and stopping programs.
+* Introduce Scratch, how to drag blocks, the block palette is where blocks are found and that the blocks are colour coded. Create a simple demonstration, showing the Green Flag and Red Button for starting and stopping programs.
 
-Show how to create a variable in Scratch.
+* Show how to create a variable in Scratch.
 
-Distribute the student handout. Pupils should be able to work through the material at their own pace.
+* Explain how to save work in Scratch and the importance of both testing and saving often.
+
+* Distribute the student handout. Pupils should be able to work through the material at their own pace.
 Handout:
-- [Lesson 3 - Using Scratch GPIO to a Pibrella.](lesson3-handout.md)
+- [Lesson 3 - Using Scratch GPIO to control Pibrella.](lesson3-handout.md)
 
 
 ## Main development
