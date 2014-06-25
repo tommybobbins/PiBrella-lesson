@@ -1,95 +1,79 @@
+# GPIO
 
-Pi Powered flashing lights
-===========================
+An introduction to GPIO and physical computing on the Raspberry Pi
 
-# Introduction
+One powerful feature of the Raspberry Pi is the row of GPIO (general purpose input/output) pins along the edge of the board, next to the yellow video out socket.
 
-For this part, we will be using a Raspberry Pi to create a simple set of traffic lights.
+![](../images/gpio-pins.jpg)
 
-# Components
+These pins are a physical interface between the Pi and the outside world. At the simplest level, you can think of them as switches that you can turn on or off (input) or that the Pi can turn on or off (output). Seventeen of the 26 pins are GPIO pins; the others are power or ground pins.
 
-First of all we'll look at some components. Check you have each component as you read through this sheet.
+![](../images/basic-gpio-layout.png)
 
-## Light Emitting Diode
+## What are they for? What can I do with them?
 
-![](../images/led.jpg)
+You can program the pins to interact in amazing ways with the real world. Inputs don't have to come from a physical switch; it could be input from a sensor or a signal from another computer or device, for example. The output can also do anything, from turning on an LED to sending a signal or data to another device. If the Raspberry Pi is on a network, you can control devices that are attached to it from anywhere\*\* and those devices can send data back. Connectivity and control of physical devices over the internet is a powerful and exciting thing, and the Raspberry Pi is ideal for this. There are lots of brilliant examples of physical computing on [our blog](http://www.raspberrypi.org/blog/).
 
-This is a Light Emitting Diode (or LED for short). Similar to a lightbulb, it converts electrical energy into light. There are many differences. It emits light when current passes through it in one direction. In the other direction, it blocks the current and will not light. An LED uses a tiny fraction of the power of a traditional bulb, does not lose lots of energy from heat and can be switched on and off many more times. For these reasons, LEDs are used in all electronics: phones, tablets, Playstations - everything from TV screens to Blackpool Illuminations.
+**Note**: Not **literally** anywhere, of course. You need things like access to the network, a network capable computing device, and electricity. Please do not write to us to point this out. :)
 
-As LEDs need to be placed the right way around in a circuit, their connectors need to be easily identified. One leg is longer than the other. This is the positive leg (or Anode). The shorter leg is the Negative leg (or Cathode).
+## How the GPIO pins work
 
-Each group should have 3 LEDs, one red, one green and one amber/yellow.
+### Output
 
-Sadly it is easy to destroy an LED compared to a normal bulb. To prevent this, we use something called a resistor.
+**WARNING**: If you follow the instructions, then messing about with the GPIO is safe and fun. Randomly plugging wires and power sources into your Pi, however, may kill it. Bad things can also happen if you try to connect things to your Pi that use a lot of power; LEDs are fine, motors are not. If you are worried about this, then you might want to consider using a breakout board such as the [Pibrella](http://shop.pimoroni.com/collections/raspberry-pi-electronics-kits) until you are confident enough to use the GPIO directly.
 
-## Resistors
-![](../images/resistor.jpg)
+Ignoring the Pi for a moment, one of the simplest electrical circuits that you can build is a battery connected to a light source and a switch (the resistor is there to protect the LED):
 
-A resistor is used to *resist* the flow of current (it is usually a coil of wire which heats up, reducing the overall current flow.)
+![](../images/simple-circuit.png)
 
-When electrical engineers destroy components by not using resistors, the components often release a small amount of smoke. Electrical engineers like to call this the magic blue smoke which exists in all electronic equipment to make it work!
+When we use a GPIO pin as an output, the Raspberry Pi replaces **both the switch and the battery** in the above diagram. Each pin can turn on or off,or go HIGH or LOW in computing terms. When the pin is HIGH it outputs 3.3 volts (3v3); when the pin is LOW it is off.
 
-To prevent the magic blue smoke escaping from our LEDs, we use resistors. These have coloured bands on the outside of them to help us read how much resistance they provide. Today, we are using Red, Red and Brown bands = 2 2 * 10 = 220 Ohms. (and one Gold band indicates how close they are to this value). 
+Here's the same circuit using the Raspberry Pi. The LED is connected to a GPIO pin (which can output +3v3) and a ground pin (which is 0v and acts like the negative terminal of the battery):
 
+![](../images/gpio-led.png)
 
+The next step is to write a program to tell the pin to go HIGH or LOW. Here's an example using [Python](http://www.raspberrypi.org/learning/quick-reaction-game/) (see Step 2), and here's how to do it in [Scratch](http://www.raspberrypi.org/learning/robot-antenna/).
 
+### Input
 
-## Jumperlead
+GPIO **outputs** are easy; they are on or off, HIGH or LOW, 3v3 or 0v. **Inputs** are a bit trickier because of the way that digital devices work. Although it might seem reasonable just to connect a button across an input pin and a ground pin, the Pi can get confused as to whether the button is on or off. It might work properly, it might not. It's a bit like floating about in deep space; without a reference it would be hard to tell if you were going up or down, or even what up or down meant!
 
-![](../images/jumperlead.jpg)
+This is why you will see phrases like "pull up" and "pull down" in Raspberry Pi GPIO tutorials. It's a way of giving the input pin a reference so it knows for certain when an input is received.
 
-A jumperlead connects different rows of a breadboard together.
+If you'd like to have a go at using the GPIO as an input then have a look at our [screaming jelly baby](http://www.raspberrypi.org/learning/screaming-jellybaby/) and [quick reaction game](http://www.raspberrypi.org/learning/quick-reaction-game/) tutorials for Python, or a [reaction game](http://www.raspberrypi.org/learning/reaction-game/) for Scratch.
 
-## Battery
+## The end of the guide. The start of something amazing.
 
-![](../images/battery.jpg)
+We hope that this has encouraged you to have a go at physical computing using the Pi's GPIO; it's really not as daunting as it looks. It all starts with a simple LED, but it can take you to incredible places. Do not underestimate the fun, creativity and sense of achievement you can get from a little computer and a bunch of pins. Have fun! And if you do make something cool please let us know. :)
 
-This is a container for batteries. This particular pack contains two AA batteries. Notice that it has a red and black wire. The Red wire is Positive (Anode) and the Black wire is negative (Cathode).
+## Glossary
 
-## Breadboard
+### BCM mode
 
-![](../images/breadboard.jpg)
+GPIO pin numbering system where pins are referred to as they are seen by the SoC (System on a Chip, the "brains" of the Raspberry Pi). The system has its basis in engineering, so to most people it appears random. BCM is short for Broadcom, who make the SoC.
 
-A breadboard is used to build circuits on.
+### BOARD mode
 
-# Build
+GPIO pin numbering system, where pin 1 is top left with the SD card slot at the top; the pins are counted across and down. The pins in the vertical column on the left are odd-numbered, those in the right column even-numbered, with pin 26 bottom right.
 
-First of all, place the 3 resistors onto the breadboard like this picture.
+### GPIO
 
-![](../images/resistors_breadboard.jpg)
+General purpose input/output; in this specific case the pins on the Raspberry Pi and what you can do with them. So called because you can use them for all sorts of purposes; most can be used as either inputs or outputs, depending on your program.
 
-In this image, the Left side of the resistors is in Row 3 and the Right side is in Row 10, 11 and 12.
+### LED
 
-Next insert the LEDs into Row 10, 11 and 12. The long leg should be on the same side as the Resistors. The short leg should bridge the gap in the breadboard. Note that each LED should be in it's own row.
+Light-emitting diode- a small, low-power light source used widely in electronics. Ideal as an introduction to physical computing on the Pi.
 
-![](../images/leds_added.jpg)
+### Physical computing
 
-Add some jumper wires from the ends of the LED back to the other side of the board near to our battery.
+Computing that involves tangible things connected to a computer, beyond standard input and output devices like keyboards and monitors. Think buttons, lights, robots, alarms, sensors, home automation, teddy bears called Babbage in near space and so on. We love physical computing because as well as being lots of fun, it's such a powerful teaching and learning tool and encourages creativity, problem solving, and collaboration. Computing **beyond the screen** engages children of all ages, and you can make very cool stuff!
 
-![](../images/jumper_wires_end_row.jpg)
+---
 
-Finally, connect up the battery pack to Row 3 and Row 1 where our jumper wires ended up.
+### A technical note on pin numbering.
 
-![](../images/battery_pack_rotated.jpg)
+When programming the GPIO pins there are two different ways to refer to them. You can count across and down from pin 1 at the top left (nearest to the SD card), as in the diagram at the top of the page. You may see this referred to as BOARD mode in Python. Alternatively, you can refer to the pins as the computer sees them (BCM mode). You can see this on the Raspberry Pi LED circuit above; for example, physical pin 3 is labelled "2" and physical pin 11 is labelled "17".
 
-If you wish at this point, you can use push button switches to control the LEDs on and off. A Push button switch should be connected diagonally across the pins.
+While there are good reasons for software engineers to use the BCM numbering system (the GPIO pins can do more than just simple input and output), most beginners find the **human readable** numbering system more useful. Counting down the pins is simple, and you don't need a reference or have to remember which is which. Take your pick though; as long as you use the same scheme within a program then all will be well. Note that pin numbering can also depend on what programming language you are using; for example, Scratch GPIO enforces certain pins as input and output.
 
-
-![](../images/switch.jpg)
-
-In the picture above, when the button is closed: 
-
-* Top Left pin is connected to Bottom Right pin. 
-* Bottom Left pin is connected to Top Right pin.
-
-Images of GPIO pins are covered by the following licence:
-
-[![Creative Commons Licence](http://i.creativecommons.org/l/by-sa/4.0/88x31.png)
-](http://creativecommons.org/licenses/by-sa/4.0/)
-
-***Raspberry Pi Documentation*** by the [Raspberry Pi Foundation](http://www.ras
-pberrypi.org) is licensed under a [Creative Commons Attribution 4.0 Internationa
-l Licence](http://creativecommons.org/licenses/by-sa/4.0/).
-
-Based on a work at [https://github.com/raspberrypi/documentation](https://github
-.com/raspberrypi/documentation).
+For more details on the advanced capabilities of the GPIO pins see gadgetoid's [interactive pinout diagram](http://pi.gadgetoid.com/pinout).

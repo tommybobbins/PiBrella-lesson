@@ -8,43 +8,44 @@ Use the Raspberry Pi to switch the LEDs on/off, using Scratch software.
 - Able to connect & power up the Raspberry Pi.
 - Able to use ScratchGPIO to control simple circuits.
 
-# Lesson 1 - Building simple circuits
+# Lesson 2 - Using the Raspberry Pi to switch on LEDs
 
 ## Learning outcomes
 
 **All students are able to:**
 
-* Define LED and know where they are used.
-* Understand the function of a resistor.
-* Understand how a breadboard works.
-* Connect a battery pack to a set of traffic lights.
+* Cable and Power up a Raspberry Pi.
+* Start ScratchGPIO.
+* Connect an LED to the GPIO pins
+* Flash one LED.
 
 **Most students are able to:**
 
-* Understand that an LED can only be orientated in one direction.
-* Understand that the long leg corresponds to the anode (+ve).
-* Connect a set of components into a breadboard.
-* Troubleshoot problems in electrical circuits.
-* Attach one switch to control the traffic lights on/off.
+* Connect multiple LEDs to the GPIO pins.
+* Understand the role of a resistor in limiting current through the LED.
+* Identify potential GPIO pins which can be used.
+* Create Scratch programs to drive GPIO pins.
+* Attach one switch to the GPIO pins.
 
 **Some students are able to:**
 
-* Connect push button switches into an electronic circuit to control individual LEDs.
+* Connect push button switches which can be read by ScratchGPIO.
 * Extend the circuit adding extra components.
+* Design complicated Scratch programs to create sequences of LEDs.
 
 
 ## Lesson summary
 
-*Students will connect up a set of Red, Yellow and Green LEDs to resistors on breadboard.
-*When a battery pack is added, students will see the LEDs light up.
-*Extend the circuit using switches, to switch on/off LEDs individually.
+*Students will connect up a set of Red, Yellow and Green LEDs to GPIO pins on a Raspberry Pi.
+*Extend the circuit using switches, to create a Pedestrian crossing .
 
 ## Starter
 
 Show the students the "What is a Raspberry Pi ?" Youtube video. Explain that we will be using the Pi to control our lights.
 Distribute the student handout. Pupils should be able to work through the material at their own pace.
 Handout:
-- [Lesson 2 - Handout Using simple electronics.](lesson2-handout.md)
+- [Lesson 2a - GPIO pins on the Raspberry Pi.](lesson2-handout.md)
+- [Lesson 2b - Using Scratch GPIO to control LEDs.](lesson2b-handout.md)
 
 
 ## Main development
@@ -61,3 +62,5 @@ Ask the class to define what the various parts of the Raspberry Pi are for.
 * USB connections
 * HDMI port
 * GPIO pins
+
+Ask the students how the Raspberry Pi pins are numbered.
