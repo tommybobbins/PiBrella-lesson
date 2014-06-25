@@ -77,3 +77,14 @@ When programming the GPIO pins there are two different ways to refer to them. Yo
 While there are good reasons for software engineers to use the BCM numbering system (the GPIO pins can do more than just simple input and output), most beginners find the **human readable** numbering system more useful. Counting down the pins is simple, and you don't need a reference or have to remember which is which. Take your pick though; as long as you use the same scheme within a program then all will be well. Note that pin numbering can also depend on what programming language you are using; for example, Scratch GPIO enforces certain pins as input and output.
 
 For more details on the advanced capabilities of the GPIO pins see gadgetoid's [interactive pinout diagram](http://pi.gadgetoid.com/pinout).
+
+## Licence
+
+This document and images are covered by the following license:
+
+![Creative Commons License](http://i.creativecommons.org/l/by-sa/4.0/88x31.png)
+
+**Raspberry Pi Documentation** by the [Raspberry Pi Foundation](http://www.raspberrypi.org) is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+
+Based on a work at [https://github.com/raspberrypi/documentation](https://github.com/raspberrypi/documentation).
+
