@@ -36,7 +36,16 @@ An introduction to using electronic components on breadboard with battery packs.
 
 ## Lesson summary
 
+Using breadboard, students will connect up a set of Red, Yellow and Green LEDs to resistors. When a battery pack is added, students will see the LEDs light up. Extending the circuit using switches, students will be able to switch on/off the LEDs.
+
 ## Starter
+
+Explain 
+
+Handout:
+- [Lesson 1 - Handout Using simple electronics.](lesson1-handout.md)
+
+
 
 ## Main development
 
