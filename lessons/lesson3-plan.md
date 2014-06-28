@@ -49,8 +49,9 @@ Use the Raspberry Pi and Pibrella to switch the LEDs on/off, using Scratch softw
 Handout:
 * [Handout Lesson 3 - Using Scratch GPIO to control Pibrella](lesson3-handout.md)
 
-* Stretch work - create a Dice using Scratch using Random blocks in Operators.
+* Stretch exercise - create a Dice using Scratch and the PiBrella:
 
+   ![](../images/pibrella_dice.gif)
 
 ## Main development
 
